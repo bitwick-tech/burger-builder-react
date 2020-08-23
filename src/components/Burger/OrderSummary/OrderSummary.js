@@ -4,11 +4,6 @@ import Aux from '../../../hoc/Aux/Aux';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
-    //could be a functional component
-    // componentWillUpdate() {
-    //     console.log("[OrderSummary] WillUpdate")
-    // }
-
     render () {
         const ingredientsSummary = Object.keys(this.props.ingredients)
         .map(igKey => {
